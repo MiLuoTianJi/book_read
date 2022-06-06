@@ -1,0 +1,132 @@
+{
+	"pages": [
+        {
+            "path" : "pages/layout/layout",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView":"false"
+				}
+            }
+        }
+		,{
+            "path" : "pages/desktop/desktop",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView":"false"
+				}
+            }
+        }
+        ,{
+            "path" : "pages/text/text",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView":"false"
+				}
+            }
+        }
+        ,{
+            "path" : "pages/text/text",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView":"false"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+            	"navigationStyle":"custom",
+            	"app-plus": {
+            		"titleNView":"false"
+            	}
+            }
+        },
+		{
+		    "path" : "pages/iconDemo/iconDemo",
+		    "style" : {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView":"false"
+				}
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+            	"navigationStyle":"custom",
+            	"app-plus": {
+            		"titleNView":"false"
+            	}
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+            	"navigationStyle":"custom",
+            	"app-plus": {
+            		"titleNView":"false"
+            	}
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+            	"navigationStyle":"custom",
+            	"app-plus": {
+            		"titleNView":"false"
+            	}
+            }
+            
+        }
+        ,{
+            "path" : "pages/bookDetail/bookDetail",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+            	"navigationStyle":"custom",
+            	"app-plus": {
+            		"titleNView":"false"
+            	}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
